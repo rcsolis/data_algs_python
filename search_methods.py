@@ -1,4 +1,3 @@
-
 # BINARY SEARCH
 # Custom/Manual implementation
 # Iterative implementation
