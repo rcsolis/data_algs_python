@@ -112,7 +112,6 @@ mh.push(10)
 print(mh)
 print(f"PEEK: {mh.peek()}")
 print(f"POP: {mh.pop()}")
-
 print(mh)
 
 
