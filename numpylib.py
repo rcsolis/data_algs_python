@@ -23,3 +23,11 @@ arrg = arr[np.argsort(arr)[::-1]]
 print(arrg[0])
 # Smallest value
 print(arrg[-1])
+# replace odd values
+l = np.array([1, 2, 3, 4, 5, 6, 7, 8])
+l[l % 2 == 0] = -1
+print(l)
+# Common items
+l1 = np.array([1, 2, 3, 4, 5, 6])
+l2 = np.array([2, 3, 8, 9, 10])
+print(np.intersect1d(l1, l2))
